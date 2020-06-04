@@ -19,7 +19,7 @@ deployment.apps "nginx-deployment-2" deleted (dry run)
 
 Kubernetes memory ve cpu usage'a gore hehangi bir kaynagin pressure yaratmasi durumunda node'u taintlemektedir.
 
-###Kubernetes 1.13'den sonra asagidaki feature-gate opsiyonlari asagidaki gibi set edilmesi gerekiyor.
+#### Kubernetes 1.13'den sonra asagidaki feature-gate opsiyonlari asagidaki gibi set edilmesi gerekiyor.
 
 * ApiServer: TaintNodesByCondition=true
 * ControllerManager: TaintNodesByCondition=true
